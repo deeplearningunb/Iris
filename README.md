@@ -9,8 +9,16 @@ A depressão se manifesta de forma diferente em cada indivíduo e com diferentes
 
 ## Solução
 
-Geralmente, as pessoas com depressão, manifestam indícios de suicídio através de seus comportamentos, porém muitas vezes eles não são percebidos ou não são levados a sério. Qualquer pessoa que tenha um agravamento muito severo de um quadro depressivo, a ponto de não querer mais viver (mesmo que não mencione se matar), é um candidato em potencial ao suicídio. 
+Geralmente, as pessoas com depressão, manifestam indícios de suicídio através de seus comportamentos, porém muitas vezes eles não são percebidos ou não são levados a sério. Qualquer pessoa que tenha um agravamento muito severo de um quadro depressivo, a ponto de não querer mais viver (mesmo que não mencione se matar), é um candidato em potencial ao suicídio.
 Visto que o primeiro passo para se evitar um suicídio é identificar estes comportamentos, nós escolhemos realizar esta busca na rede social Twitter, que é um site onde há um maior número de pessoas que divulgam o que estão sentindo e o que estão fazendo. Para isso, nós utilizamos redes neurais que auxiliarão na identificação de perfis de usuários que com depressão.
+
+## Construção do Projeto
+
+Com base em varios artigos, escolhemos fizer a **Rede Neural Convolucional** (CNN). A fim de conseguir uma acurácia aceitável no projeto, fizemos um dicionario de palavras brasileiras com base em mais de 600 mil _tweets_. Para a análise de sentimento da Rede Neural, usamos 4 mil tweets classificados como depressivos e os 4 mil classificados como não depressivos, e separamos 80% deles para treinamento, e 20% para teste. Com isso, conseguimos a acurácia de 92,10%.
+
+![acurácia](./assets/acuracia.png)
+
+Além disso, é possivel escolher um perfil no twitter e fazer uma análise de sentimento do perfil com base nos seus tweets
 
 ## Público Alvo
 
@@ -20,7 +28,8 @@ Com este software, nós buscamos identificar as milhares de pessoas que utilizam
 
 ### Requisitos necessários dos integrantes
 
-Para a realização deste software é necessário que na equipe contenha:  
+Para a realização deste software é necessário que na equipe contenha:
+
 - Desenvolvedores com conhecimento de python
 - Desenvolvedores que saibam implementar uma rede neural
 
@@ -52,15 +61,14 @@ As atividade para a construção do software pode ser conferída na página de I
 
 ### Membros
 
-| Nome                          | Matrícula  | GitHub             | Email                                |
-|-------------------------------|------------|--------------------|--------------------------------------|
-| Guilherme Deusdará            | 16/0122996 | [gdeusdara](https://github.com/gdeusdara)| guibanci@gmail.com|   
-| Andrew Lucas | 16/0023921 | [andrewlucasgs](https://github.com/andrewlucasgs)| andrewlucasgs@gmail.com|     
-|Gabriel Filipe | 16/0121019 | [gabrielfilipe7unb](https://github.com/gabrielfilipe7unb)| gabrielfilipe7unb@gmail.com|     
-| Lucas Penido |16/0013243 | [LucasPenido](https://github.com/LucasPenido)  |lpenidoa@me.com|
-| João Zarbielli |17/0146251| [zarbielli](https://github.com/zarbielli)  |jlfz06@gmail.com|
+| Nome               | Matrícula  | GitHub                                                    | Email                       |
+| ------------------ | ---------- | --------------------------------------------------------- | --------------------------- |
+| Guilherme Deusdará | 16/0122996 | [gdeusdara](https://github.com/gdeusdara)                 | guibanci@gmail.com          |
+| Andrew Lucas       | 16/0023921 | [andrewlucasgs](https://github.com/andrewlucasgs)         | andrewlucasgs@gmail.com     |
+| Gabriel Filipe     | 16/0121019 | [gabrielfilipe7unb](https://github.com/gabrielfilipe7unb) | gabrielfilipe7unb@gmail.com |
+| Lucas Penido       | 16/0013243 | [LucasPenido](https://github.com/LucasPenido)             | lpenidoa@me.com             |
+| João Zarbielli     | 17/0146251 | [zarbielli](https://github.com/zarbielli)                 | jlfz06@gmail.com            |
 
 ### Stakeholders
 
 Professor Diego Dorgam [@diegodorgam](https://github.com/diegodorgam)
-
