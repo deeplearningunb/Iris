@@ -14,7 +14,7 @@ Visto que o primeiro passo para se evitar um suicídio é identificar estes comp
 
 ## Construção do Projeto
 
-Com base em varios artigos, escolhemos fizer a **Rede Neural Convolucional** (CNN). A fim de conseguir uma acurácia aceitável no projeto, fizemos um dicionario de palavras brasileiras com base em mais de 600 mil _tweets_. Para a análise de sentimento da Rede Neural, usamos 4 mil tweets classificados como depressivos e os 4 mil classificados como não depressivos, e separamos 80% deles para treinamento, e 20% para teste. Com isso, conseguimos a acurácia de 92,10%.
+Com base em varios artigos, escolhemos fizer a **Rede Neural Convolucional** (CNN). A fim de conseguir uma acurácia aceitável no projeto, fizemos um dicionario de palavras brasileiras com base em mais de 600 mil _tweets_. Para a análise de sentimento da Rede Neural, usamos 4 mil tweets classificados como depressivos e os 4 mil classificados como não depressivos, e separamos 80% deles para treinamento, e 20% para teste. Com isso, conseguimos a acurácia de 82,96%.
 
 ![acurácia](./assets/acuracia.png)
 
