@@ -1,6 +1,6 @@
 # Iris
 
-Iris é um software que faz uso de redes neurais para relizar a análise de sentimento de tweets em português para identificação de usuários que estão com algum tipo de problema de saúde mental.
+Iris é um software que faz uso de redes neurais para realizar a análise de sentimento de tweets em português para identificação de usuários que estão com algum tipo de problema de saúde mental.
 
 ## Problemática
 
